@@ -1,4 +1,4 @@
-export const cvData = {
+export const cvDataENG = {
   personalInfo: {
     name: "Francisco",
     surnames: "Barona Sempere",
@@ -54,6 +54,17 @@ export const cvData = {
         "Developed mobile applications for Android and iOS with focus on iOS.",
     },
   ],
+  education: [
+    {
+      name: "Bachelor's Degree in Computer Engineering",
+      company: "University of Valencia (Spain)",
+      date: "2010 - 2015",
+    },
+  ],
+  languages: [
+    { name: "Spanish", level: "Native" },
+    { name: "English", level: "B2 - Upper intermediate" },
+  ],
   skills: [
     "Angular",
     "React",
@@ -65,8 +76,4 @@ export const cvData = {
     "Git",
     "Testing (Jest/Cypress)",
   ],
-  languages: [
-    { name: "Spanish", level: "Native" },
-    { name: "English", level: "B2 - Upper intermediate" },
-  ]
 };
