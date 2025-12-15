@@ -10,7 +10,7 @@ export const cvDataENG = {
     linkedin: "francisco-barona-sempere-61a37314b/",
     portfolio: "www.franbarona.dev",
     profile:
-      "Software developer with over 6 years of experience in web development. With a strong focus on creating accessible, scalable, and visually stunning user interfaces. My best position is where business strategy and development intersect. Bringing thoughtful user experiences to life through clean, efficient code and performance-focused solutions. Currently working as a Senior Front-End Engineer at Softtek, building and maintaining reusable UI components to ensure a functional, inclusive platform aligned with web standards.",
+      "Highly motivated Software Developer seeking to further professional growth through new challenges in a forward-looking enterprise where business strategy and development projects intersect. With over 6 years of experience in web development on a team, my focus has been on creating accessible, scalable, and visually stunning user interfaces anchored in using clean, efficient code and finding performance-boosting solutions. Currently working as a Senior Front-End Engineer at Softtek, building and maintaining reusable UI components to ensure a functional, inclusive platform aligned with web standards.",
   },
   experiences: [
     {
@@ -71,9 +71,15 @@ export const cvDataENG = {
     "TypeScript",
     "RxJS",
     "Node.js",
-    "MongoDB",
+    "Java",
+    "Relational DB",
+    "NoSQL",
     "Docker",
+    "Testing",
     "Git",
-    "Testing (Jest/Cypress)",
+    "DDD",
+    "Hexagonal",
+    "SOLID",
+    "Agile",
   ],
 };

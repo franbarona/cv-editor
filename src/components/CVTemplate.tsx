@@ -129,10 +129,9 @@ export const CVTemplate = forwardRef<HTMLDivElement, CVTemplateProps>(
             {/* Sills */}
             <section className="mt-4">
               <SectionTitle title="Skills"></SectionTitle>
-              <div className="flex flex-col gap-y-1 mt-4 text-sm text-gray-600">
+              <div className="grid grid-cols-2 gap-y-1 text-left mt-4 text-sm text-gray-600">
                 {skills.map((skill, i) => (
                   <p key={i} className="text-sm mb-1">
-                    <span className="text-gray-800 mr-2">●</span>
                     {skill}
                   </p>
                 ))}
@@ -142,7 +141,7 @@ export const CVTemplate = forwardRef<HTMLDivElement, CVTemplateProps>(
           <main className="pl-4 flex-2">
             {/* Summary */}
             <section>
-              <SectionTitle title={isSpanish ? "Perfil" : "Profile"} />
+              <SectionTitle title={isSpanish ? "Perfil" : "Objective"} />
               <p className="text-gray-600 text-sm mt-4">
                 {personalInfo.profile}
               </p>
