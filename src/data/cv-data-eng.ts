@@ -15,7 +15,7 @@ export const cvDataENG = {
   experiences: [
     {
       company: "Softtek · SERES",
-      position: "FRONT-END DEVELOPER",
+      position: "FULL-STACK DEVELOPER",
       startDate: "Sept 2023",
       endDate: "Present",
       description:
@@ -67,11 +67,10 @@ export const cvDataENG = {
   ],
   skills: [
     "Angular",
-    "React",
     "TypeScript",
     "RxJS",
     "Node.js",
-    "Java",
+    "Java Spring Boot",
     "Relational DB",
     "NoSQL",
     "Docker",
@@ -81,5 +80,6 @@ export const cvDataENG = {
     "Hexagonal",
     "SOLID",
     "Agile",
+    "React",
   ],
 };

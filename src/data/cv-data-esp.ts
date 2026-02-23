@@ -15,11 +15,11 @@ export const cvDataESP = {
   experiences: [
     {
       company: "Softtek · SERES",
-      position: "FRONT-END DEVELOPER",
+      position: "FULL-STACK DEVELOPER",
       startDate: "Sept 2023",
       endDate: "Present",
       description:
-        "Desarrollador Front-End Senior en el sector de la facturación electrónica y el intercambio de datos. Desarrollo colaborativo de interfaces de usuario alineadas con los últimos estándares web. Participación en la definición de arquitecturas front-end y en la revisión de código y despliegues.",
+        "Desarrollador Full-Stack en el sector de la facturación electrónica y el intercambio de datos. Desarrollo colaborativo de interfaces de usuario alineadas con los últimos estándares web. Participación en la definición de arquitecturas front-end y en la revisión de código y despliegues.",
     },
     {
       company: "Power Electronics",
@@ -70,7 +70,7 @@ export const cvDataESP = {
     "TypeScript",
     "RxJS",
     "Node.js",
-    "Java",
+    "Java Spring Boot",
     "Relational DB",
     "NoSQL",
     "Docker",
