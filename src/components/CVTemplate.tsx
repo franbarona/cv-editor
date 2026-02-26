@@ -102,7 +102,9 @@ export const CVTemplate = forwardRef<HTMLDivElement, CVTemplateProps>(
                   {education[0].name}
                 </h3>
                 <span>{education[0].company}</span>
-                <span className="text-xs text-gray-500">{education[0].date}</span>
+                <span className="text-xs text-gray-500">
+                  {education[0].date}
+                </span>
               </div>
               <div className="flex flex-col gap-y-1 mt-4 text-sm text-gray-600">
                 <h3 className="text-xs font-medium uppercase text-gray-800">
@@ -159,8 +161,16 @@ export const CVTemplate = forwardRef<HTMLDivElement, CVTemplateProps>(
                         <h3 className="font-semibold text-gray-900">
                           {exp.position}
                         </h3>
-                        <p className="text-sky-900 font-medium">
-                          {exp.company}
+                        <p className="flex gap-2">
+                          <span className="text-sky-900 font-medium">
+                            {exp.company}
+                          </span>
+
+                          {exp.stack && (
+                            <span className="text-sky-900 font-medium">
+                              ({exp.stack})
+                            </span>
+                          )}
                         </p>
                       </div>
                       <span className="text-sm text-gray-500 whitespace-nowrap">
@@ -178,7 +188,7 @@ export const CVTemplate = forwardRef<HTMLDivElement, CVTemplateProps>(
         </div>
       </div>
     );
-  }
+  },
 );
 
 CVTemplate.displayName = "CVTemplate";

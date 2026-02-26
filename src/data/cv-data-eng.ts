@@ -16,6 +16,7 @@ export const cvDataENG = {
     {
       company: "Softtek · SERES",
       position: "FULL-STACK DEVELOPER",
+      stack: "Angular, Java Spring Boot",
       startDate: "Sept 2023",
       endDate: "Present",
       description:
@@ -24,6 +25,7 @@ export const cvDataENG = {
     {
       company: "Power Electronics",
       position: "TEAM LEADER",
+      stack: "Angular, NodeJs",
       startDate: "Jun 2021",
       endDate: "Sept 2023",
       description:
@@ -32,6 +34,7 @@ export const cvDataENG = {
     {
       company: "Finametrix",
       position: "FULL-STACK DEVELOPER",
+      stack: "Angular, NodeJs",
       startDate: "Mar 2019",
       endDate: "Jun 2021",
       description:
@@ -40,6 +43,7 @@ export const cvDataENG = {
     {
       company: "Edicom",
       position: "EDI CONSULTANT",
+      stack: "",
       startDate: "Oct 2017",
       endDate: "Mar 2019",
       description:
@@ -48,6 +52,7 @@ export const cvDataENG = {
     {
       company: "Intelectiva",
       position: "MOBILE APP DEVELOPER",
+      stack: "",
       startDate: "Jan 2016",
       endDate: "Oct 2017",
       description:
